@@ -52,7 +52,7 @@ const Transition: React.FC<TransitionProps> = ({
       dispatch(listTransitions(workflowId));
       dispatch(listStates(workflowId));
     }
-  }, [dispatch, workflowId]);
+  }, [dispatch, workflowId, workflow?.transitions?.length]);
 
   useEffect(() => {
     if (
