@@ -2,10 +2,11 @@
   background: none !important;
 }
 
-.sidebar-picker {
-  display: inline-flex;
-  align-items: center;
-  padding: 4px 8px;
-  border: 1px solid #d1d5db;
-  border-radius: 6px;
+@media screen and (max-width: 768px) {
+  .sidebar-picker, .full-size-sidenav-btn {
+    margin-bottom: 10px;
+    display: flex;
+    position: relative;
+    z-index: 10;
+  }
 }

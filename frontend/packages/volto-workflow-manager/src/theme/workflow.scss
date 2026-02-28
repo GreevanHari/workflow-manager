@@ -26,3 +26,18 @@ body.section-controlpanel.section-workflowmanager.is-authenticated.cms-ui.has-to
     }
   }
 }
+
+
+@media screen and (max-width: 768px) {
+  .sidebar-container {
+    .trigger {
+      margin-left: 0 !important;
+      padding: 10px;
+    }
+    
+    .full-size-sidenav-btn {
+      position: relative;
+      z-index: 100;
+    }
+  }
+}
